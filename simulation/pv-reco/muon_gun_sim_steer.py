@@ -6,9 +6,9 @@ SIM = DD4hepSimulation()
 
 ## The compact XML file
 #SIM.compactFile = "/opt/ilcsoft/muonc/detector-simulation/geometries/MuColl_v1/MuColl_v1.xml"
-#SIM.compactFile = "/workdir/mucoll-sandbox/muon_gun/sim/detector-simulation/geometries/MuColl_v1/MuColl_v1.xml"
-#SIM.compactFile = "/workdir/mucoll-sandbox/muon_gun/sim/detector-simulation/geometries/MuColl_v1_noCalo/MuColl_v1.xml"
-SIM.compactFile = "/mucoll_config/simulation/detector-simulation/geometries/MuColl_v1_noCalo/MuColl_v1.xml"
+#SIM.compactFile = "/ProductionConfig/simulation/pv-reco/detector-simulation/geometries/MuColl_v1/MuColl_v1.xml"
+#SIM.compactFile = "/ProductionConfig/simulation/pv-reco/detector-simulation/geometries/MuColl_v1_noCalo/MuColl_v1.xml"
+SIM.compactFile = "/ProductionConfig/simulation/pv-reco/detector-simulation/geometries/MuColl_v1_noCalo/MuColl_v1.xml"
 ## Lorentz boost for the crossing angle, in radian!
 SIM.crossingAngleBoost = 0.
 SIM.enableDetailedShowerMode = True

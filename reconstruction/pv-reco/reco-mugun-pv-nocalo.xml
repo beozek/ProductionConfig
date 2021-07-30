@@ -81,7 +81,7 @@
     <parameter name="SupressCheck" value="false" />  
     <parameter name="Verbosity" options="DEBUG0-9,MESSAGE0-9,WARNING0-9,ERROR0-9,SILENT">DEBUG9</parameter>
     <parameter name="RandomSeed" value="1234567890" />
-    <parameter name="GearXMLFile">/mucoll_config/reconstruction/config_files/GearOutput_slim.xml</parameter>
+    <parameter name="GearXMLFile">/ProductionConfig/reconstruction/pv-reco/config_files/GearOutput_slim.xml</parameter>
   </global>
 
 <include ref="config_files/InitDD4hep.xml"/>
