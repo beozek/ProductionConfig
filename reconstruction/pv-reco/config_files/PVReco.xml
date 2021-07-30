@@ -23,9 +23,9 @@
     <parameter name="MCPCollection" type="string" value="MCParticle" />
     <parameter name="MCPFORelation" type="string" value="RecoMCTruthLink" />
     <parameter name="MagneticField" type="float" value="4.0"/> <!-- CLIC B field -->
-    <parameter name="BeamSizeX" type="float" value="40.0E-6"/> <!-- CLIC beam sizes from CDR -->
-    <parameter name="BeamSizeY" type="float" value="1.0E-6"/>
-    <parameter name="BeamSizeZ" type="float" value="44E-3"/>
+    <parameter name="BeamSizeX" type="float" value="0.0059"/> <!-- dantrim July 2021: these beam size parameters are from Giacomo Da Molin, units are millimeters -->
+    <parameter name="BeamSizeY" type="float" value="0.0059"/>
+    <parameter name="BeamSizeZ" type="float" value="10."/>
     <!-- parameters for primary vertex finder -->
     <parameter name="PrimaryVertexFinder.BeamspotSmearing" type="boolean" value="false" />
     <parameter name="PrimaryVertexFinder.TrackMaxD0" type="double" value="20." />
